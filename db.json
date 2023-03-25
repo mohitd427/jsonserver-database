@@ -7,29 +7,27 @@
       "password":"12345"
     }
   ],
-  "hotels": [
-    {"url":"https://images.oyoroomscdn.com/uploads/hotel_image/109927/thumb/7db1a048a32fcfa6.jpg",
-    "roomType":"Reception",
-    "cost":"2639",
-    "bedType":"single",
-    "adults":"1",
-    "capacity":"2",
-    "booked":false,
-    "category":"Family",
-    "id":1
-  },
-
-    {"url":"https://images.oyoroomscdn.com/uploads/hotel_image/113183/thumb/69f4eaef39a2b09e.jpg","roomType":"Free Wifi","cost":"4555","bedType":"single","adults":"2","capacity":"3","booked":false,"category":"Delux","id":2},
-    {"url":"https://images.oyoroomscdn.com/uploads/hotel_image/92110/thumb/8ca774d367d73f72.jpg","roomType":"Free Wifi","cost":"3423","bedType":"double","adults":"3","capacity":"4","booked":false,"category":"Family","id":3},
-    {"url":"https://images.oyoroomscdn.com/uploads/hotel_image/45724/thumb/f214403e80a2a40b.jpg","roomType":"Parking facility","cost":"7666","bedType":"single","adults":"4","capacity":"5","booked":false,"category":"Family","id":4},
-    {"url":"https://images.oyoroomscdn.com/uploads/hotel_image/193326/thumb/61a5a7d941fe4a13.jpg","roomType":"Elevator","cost":"2157","bedType":"double","adults":"5","capacity":"6","booked":false,"category":"Delux","id":5},
-    {"url":"https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?ca=6&ce=1&s=1024x768","roomType":"Private entrance","cost":"5512","bedType":"single","adults":"6","capacity":"7","booked":false,"category":"Family","id":6},
-    {"url":"https://images.oyoroomscdn.com/uploads/hotel_image/107894/thumb/6d12651f323155c8.jpg","roomType":"AC","cost":"9000","bedType":"single","adults":"7","capacity":"8","booked":false,"category":"Suits","id":7},
-    {"url":"https://images.oyoroomscdn.com/uploads/hotel_image/113873/thumb/31fa0a56c239d128.jpg","roomType":"Elevator","cost":"5499","bedType":"single","adults":"8","capacity":"9","booked":false,"category":"Delux","id":8},
-    {"url":"https://images.oyoroomscdn.com/uploads/hotel_image/98414/thumb/a42c6caed47d4de3.jpg","roomType":"Parking facility","cost":"7666","bedType":"single","adults":"9","capacity":"10","booked":false,"category":"Suits","id":9},
-    {"url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfjvtbPeTmGXZ0dA17hsuC3xS0JnAmP7x7QSLpEz8P&s","roomType":"Free Wifi","cost":"5444","bedType":"single","adults":"10","capacity":"11","booked":false,"category":"Delux","id":10}
-    
-    
+  "movies": [
+    {
+		"id" : 1,
+		"poster" : "https://image.tmdb.org/t/p/original/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
+		"title" : "Doctor Strange in the Multiverse of Madness",
+		"director" : "Sam Raimi",
+		"year" : 2022,
+		"genre" : "Action",
+		"IMDB_Rating" : 6.8,
+		"ticket" : 200
+	},
+	{
+		"id" : 2,
+		"poster" : "https://images2.9c9media.com/image_asset/2019_2_14_f02ce589-7434-4ef2-ae0f-1879c20072e2_png_2000x3000.jpg",
+		"title" : "I Am Legend",
+		"director" : "Francis Lawrence",
+		"year" : 2007,
+		"genre" : "Horror",
+		"IMDB_Rating" : 7.2,
+		"ticket" : 200
+	}
 ]
   
   
