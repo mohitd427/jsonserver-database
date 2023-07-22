@@ -3,14 +3,16 @@
     {
      "id":1,
       "name":"user1@gmail.com",
-      "score":8,
-      "level":""
+      "email":"m@gmail.com",
+      "password":"123"
+      
     }
   ],
 
   "laptops":[
   {
-    "title": " Asp Dell Inspiron 15",
+    "id":1,
+    "title": "Asp Dell Inspiron 65G",
     "product_id": "DELL12345",
     "specs": {
       "Processor": {
