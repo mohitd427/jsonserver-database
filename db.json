@@ -7,12 +7,550 @@
       "level":""
     }
   ],
-    "todos":[
-      {
-     "id":1,
-      "todo":"user1@gmail.com"          
-    }
-    ]
+
+  "laptops":[
+  {
+    "title": " Asp Dell Inspiron 15",
+    "product_id": "DELL12345",
+    "specs": {
+      "Processor": {
+        "Model": "13th Gen Intel® Core™ i5-1335U",
+        "Turbo_Speed": "Up to 4.60 GHz"
+      },
+      "Operating_System": "Windows 11 Home Single Language, English",
+      "Display": {
+        "Size": "16.0\"",
+        "Resolution": "FHD+ 1920x1200",
+        "Refresh_Rate": "60Hz",
+        "Panel_Type": "WVA"
+      },
+      "Memory": {
+        "Capacity": "8 GB",
+        "Type": "LPDDR5",
+        "Speed": "4800 MHz"
+      },
+      "Hard_Drive": {
+        "Capacity": "512 GB",
+        "Type": "M.2",
+        "Interface": "PCIe NVMe",
+        "SSD": true
+      },
+      "Color": "Platinum Silver",
+      "Keyboard": {
+        "Color": "Titan Gray",
+        "Layout": "English International",
+        "Backlit": true
+      },
+      "Ports": {
+        "USB_3.2_Gen_1_Type-A": 2,
+        "Thunderbolt_4": 2,
+        "Universal_audio_jack": 1,
+        "HDMI_1.4_port": 1
+      },
+      "Dimensions_Weight": {
+        "Height": {
+          "Front": "16.23 mm (0.64 in.)",
+          "Rear": "17.54 mm (0.69 in.)",
+          "Peak": "18.99 mm (0.75 in.)"
+        },
+        "Width": "356.78 mm (14.05 in.)",
+        "Depth": "251.70 mm (9.91 in.)",
+        "Weight": {
+          "Minimum": "2.11 kg (4.65 lb)",
+          "Maximum": "2.18 kg (4.81 lb)"
+        }
+      },
+      "Wireless": "Intel® Wi-Fi 6E AX211, 2x2, 802.11ax, Bluetooth® wireless card"
+    },
+    "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315-2in1/media-gallery/blue/tablet-xps-13-9315-blue-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&wid=4465&hei=2394&qlt=100,1&resMode=sharp2&size=4465,2394&chrss=full&imwidth=5000"
+  },
+
+  {
+    "title": "Dell Spectre x360",
+    "product_id": "DL56789",
+    "specs": {
+      "Processor": {
+        "Model": "11th Gen Intel® Core™ i7-1165G7",
+        "Turbo_Speed": "Up to 4.70 GHz"
+      },
+      "Operating_System": "Windows 10 Pro",
+      "Display": {
+        "Size": "13.3\"",
+        "Resolution": "UHD 3840x2160",
+        "Refresh_Rate": "60Hz",
+        "Panel_Type": "OLED"
+      },
+      "Memory": {
+        "Capacity": "16 GB",
+        "Type": "LPDDR4",
+        "Speed": "3200 MHz"
+      },
+      "Hard_Drive": {
+        "Capacity": "512 GB",
+        "Type": "M.2",
+        "Interface": "PCIe NVMe",
+        "SSD": true
+      },
+      "Color": "Nightfall Black",
+      "Keyboard": {
+        "Color": "Black",
+        "Layout": "US QWERTY",
+        "Backlit": true
+      },
+      "Ports": {
+        "USB_3.1_Gen_1_Type-C": 2,
+        "Thunderbolt_3": 1,
+        "Headphone_microphone_combo_jack": 1
+      },
+      "Dimensions_Weight": {
+        "Height": {
+          "Front": "17.9 mm (0.70 in.)",
+          "Rear": "17.9 mm (0.70 in.)"
+        },
+        "Width": "305.8 mm (12.04 in.)",
+        "Depth": "194.5 mm (7.65 in.)",
+        "Weight": {
+          "Minimum": "1.36 kg (3.00 lb)",
+          "Maximum": "1.36 kg (3.00 lb)"
+        }
+      },
+      "Wireless": "Intel® Wi-Fi 6E AX210, Bluetooth® 5"
+    },
+    "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-3.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+  },
+
+  {
+    "title": "Dell Spectre x360",
+    "product_id": "HP56789",
+    "specs": {
+      "Processor": {
+        "Model": "11th Gen Intel® Core™ i7-1165G7",
+        "Turbo_Speed": "Up to 4.70 GHz"
+      },
+      "Operating_System": "Windows 10 Pro",
+      "Display": {
+        "Size": "13.3\"",
+        "Resolution": "UHD 3840x2160",
+        "Refresh_Rate": "60Hz",
+        "Panel_Type": "OLED"
+      },
+      "Memory": {
+        "Capacity": "16 GB",
+        "Type": "LPDDR4",
+        "Speed": "3200 MHz"
+      },
+      "Hard_Drive": {
+        "Capacity": "512 GB",
+        "Type": "M.2",
+        "Interface": "PCIe NVMe",
+        "SSD": true
+      },
+      "Color": "Nightfall Black",
+      "Keyboard": {
+        "Color": "Black",
+        "Layout": "US QWERTY",
+        "Backlit": true
+      },
+      "Ports": {
+        "USB_3.1_Gen_1_Type-C": 2,
+        "Thunderbolt_3": 1,
+        "Headphone_microphone_combo_jack": 1
+      },
+      "Dimensions_Weight": {
+        "Height": {
+          "Front": "17.9 mm (0.70 in.)",
+          "Rear": "17.9 mm (0.70 in.)"
+        },
+        "Width": "305.8 mm (12.04 in.)",
+        "Depth": "194.5 mm (7.65 in.)",
+        "Weight": {
+          "Minimum": "1.36 kg (3.00 lb)",
+          "Maximum": "1.36 kg (3.00 lb)"
+        }
+      },
+      "Wireless": "Intel® Wi-Fi 6E AX210, Bluetooth® 5"
+    },
+    "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-3.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+  },
+
+  {
+    "title": "Alienware m15 R7 Gaming Laptop",
+    "product_id": "HP56789",
+    "specs": {
+      "Processor": {
+        "Model": "11th Gen Intel® Core™ i7-1165G7",
+        "Turbo_Speed": "Up to 4.70 GHz"
+      },
+      "Operating_System": "Windows 10 Pro",
+      "Display": {
+        "Size": "13.3\"",
+        "Resolution": "UHD 3840x2160",
+        "Refresh_Rate": "60Hz",
+        "Panel_Type": "OLED"
+      },
+      "Memory": {
+        "Capacity": "16 GB",
+        "Type": "LPDDR4",
+        "Speed": "3200 MHz"
+      },
+      "Hard_Drive": {
+        "Capacity": "512 GB",
+        "Type": "M.2",
+        "Interface": "PCIe NVMe",
+        "SSD": true
+      },
+      "Color": "Nightfall Black",
+      "Keyboard": {
+        "Color": "Black",
+        "Layout": "US QWERTY",
+        "Backlit": true
+      },
+      "Ports": {
+        "USB_3.1_Gen_1_Type-C": 2,
+        "Thunderbolt_3": 1,
+        "Headphone_microphone_combo_jack": 1
+      },
+      "Dimensions_Weight": {
+        "Height": {
+          "Front": "17.9 mm (0.70 in.)",
+          "Rear": "17.9 mm (0.70 in.)"
+        },
+        "Width": "305.8 mm (12.04 in.)",
+        "Depth": "194.5 mm (7.65 in.)",
+        "Weight": {
+          "Minimum": "1.36 kg (3.00 lb)",
+          "Maximum": "1.36 kg (3.00 lb)"
+        }
+      },
+      "Wireless": "Intel® Wi-Fi 6E AX210, Bluetooth® 5"
+    },
+    "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/alienware-notebooks/m15-r7-non-touch-non-tobii/media_gallery/laptop-alienware-m15-r7-gallery-hero-single-zone-kb.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,1&resMode=sharp2&size=402,402&chrss=full"
+  },
+
+  {
+    "title": "Inspiro 15 laptop",
+    "product_id": "DL86856757",
+    "specs": {
+      "Processor": {
+        "Model": "11th Gen Intel® Core™ i7-1165G7",
+        "Turbo_Speed": "Up to 4.70 GHz"
+      },
+      "Operating_System": "Windows 10 Pro",
+      "Display": {
+        "Size": "13.3\"",
+        "Resolution": "UHD 3840x2160",
+        "Refresh_Rate": "60Hz",
+        "Panel_Type": "OLED"
+      },
+      "Memory": {
+        "Capacity": "16 GB",
+        "Type": "LPDDR4",
+        "Speed": "3200 MHz"
+      },
+      "Hard_Drive": {
+        "Capacity": "512 GB",
+        "Type": "M.2",
+        "Interface": "PCIe NVMe",
+        "SSD": true
+      },
+      "Color": "Nightfall Black",
+      "Keyboard": {
+        "Color": "Black",
+        "Layout": "US QWERTY",
+        "Backlit": true
+      },
+      "Ports": {
+        "USB_3.1_Gen_1_Type-C": 2,
+        "Thunderbolt_3": 1,
+        "Headphone_microphone_combo_jack": 1
+      },
+      "Dimensions_Weight": {
+        "Height": {
+          "Front": "17.9 mm (0.70 in.)",
+          "Rear": "17.9 mm (0.70 in.)"
+        },
+        "Width": "305.8 mm (12.04 in.)",
+        "Depth": "194.5 mm (7.65 in.)",
+        "Weight": {
+          "Minimum": "1.36 kg (3.00 lb)",
+          "Maximum": "1.36 kg (3.00 lb)"
+        }
+      },
+      "Wireless": "Intel® Wi-Fi 6E AX210, Bluetooth® 5"
+    },
+    "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3530-intel/media-gallery/black/notebook-inspiron-15-3530-nt-plastic-black-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
+  },
+
+  {
+    "title": "HP Spectre x360",
+    "product_id": "HP56789",
+    "specs": {
+      "Processor": {
+        "Model": "11th Gen Intel® Core™ i7-1165G7",
+        "Turbo_Speed": "Up to 4.70 GHz"
+      },
+      "Operating_System": "Windows 10 Pro",
+      "Display": {
+        "Size": "13.3\"",
+        "Resolution": "UHD 3840x2160",
+        "Refresh_Rate": "60Hz",
+        "Panel_Type": "OLED"
+      },
+      "Memory": {
+        "Capacity": "16 GB",
+        "Type": "LPDDR4",
+        "Speed": "3200 MHz"
+      },
+      "Hard_Drive": {
+        "Capacity": "512 GB",
+        "Type": "M.2",
+        "Interface": "PCIe NVMe",
+        "SSD": true
+      },
+      "Color": "Nightfall Black",
+      "Keyboard": {
+        "Color": "Black",
+        "Layout": "US QWERTY",
+        "Backlit": true
+      },
+      "Ports": {
+        "USB_3.1_Gen_1_Type-C": 2,
+        "Thunderbolt_3": 1,
+        "Headphone_microphone_combo_jack": 1
+      },
+      "Dimensions_Weight": {
+        "Height": {
+          "Front": "17.9 mm (0.70 in.)",
+          "Rear": "17.9 mm (0.70 in.)"
+        },
+        "Width": "305.8 mm (12.04 in.)",
+        "Depth": "194.5 mm (7.65 in.)",
+        "Weight": {
+          "Minimum": "1.36 kg (3.00 lb)",
+          "Maximum": "1.36 kg (3.00 lb)"
+        }
+      },
+      "Wireless": "Intel® Wi-Fi 6E AX210, Bluetooth® 5"
+    },
+    "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-3.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+  },
+
+  {
+    "title": "HP Spectre x360",
+    "product_id": "HP56789",
+    "specs": {
+      "Processor": {
+        "Model": "11th Gen Intel® Core™ i7-1165G7",
+        "Turbo_Speed": "Up to 4.70 GHz"
+      },
+      "Operating_System": "Windows 10 Pro",
+      "Display": {
+        "Size": "13.3\"",
+        "Resolution": "UHD 3840x2160",
+        "Refresh_Rate": "60Hz",
+        "Panel_Type": "OLED"
+      },
+      "Memory": {
+        "Capacity": "16 GB",
+        "Type": "LPDDR4",
+        "Speed": "3200 MHz"
+      },
+      "Hard_Drive": {
+        "Capacity": "512 GB",
+        "Type": "M.2",
+        "Interface": "PCIe NVMe",
+        "SSD": true
+      },
+      "Color": "Nightfall Black",
+      "Keyboard": {
+        "Color": "Black",
+        "Layout": "US QWERTY",
+        "Backlit": true
+      },
+      "Ports": {
+        "USB_3.1_Gen_1_Type-C": 2,
+        "Thunderbolt_3": 1,
+        "Headphone_microphone_combo_jack": 1
+      },
+      "Dimensions_Weight": {
+        "Height": {
+          "Front": "17.9 mm (0.70 in.)",
+          "Rear": "17.9 mm (0.70 in.)"
+        },
+        "Width": "305.8 mm (12.04 in.)",
+        "Depth": "194.5 mm (7.65 in.)",
+        "Weight": {
+          "Minimum": "1.36 kg (3.00 lb)",
+          "Maximum": "1.36 kg (3.00 lb)"
+        }
+      },
+      "Wireless": "Intel® Wi-Fi 6E AX210, Bluetooth® 5"
+    },
+    "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-3.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+  },
+  {
+    "title": "HP Spectre x360",
+    "product_id": "HP56789",
+    "specs": {
+      "Processor": {
+        "Model": "11th Gen Intel® Core™ i7-1165G7",
+        "Turbo_Speed": "Up to 4.70 GHz"
+      },
+      "Operating_System": "Windows 10 Pro",
+      "Display": {
+        "Size": "13.3\"",
+        "Resolution": "UHD 3840x2160",
+        "Refresh_Rate": "60Hz",
+        "Panel_Type": "OLED"
+      },
+      "Memory": {
+        "Capacity": "16 GB",
+        "Type": "LPDDR4",
+        "Speed": "3200 MHz"
+      },
+      "Hard_Drive": {
+        "Capacity": "512 GB",
+        "Type": "M.2",
+        "Interface": "PCIe NVMe",
+        "SSD": true
+      },
+      "Color": "Nightfall Black",
+      "Keyboard": {
+        "Color": "Black",
+        "Layout": "US QWERTY",
+        "Backlit": true
+      },
+      "Ports": {
+        "USB_3.1_Gen_1_Type-C": 2,
+        "Thunderbolt_3": 1,
+        "Headphone_microphone_combo_jack": 1
+      },
+      "Dimensions_Weight": {
+        "Height": {
+          "Front": "17.9 mm (0.70 in.)",
+          "Rear": "17.9 mm (0.70 in.)"
+        },
+        "Width": "305.8 mm (12.04 in.)",
+        "Depth": "194.5 mm (7.65 in.)",
+        "Weight": {
+          "Minimum": "1.36 kg (3.00 lb)",
+          "Maximum": "1.36 kg (3.00 lb)"
+        }
+      },
+      "Wireless": "Intel® Wi-Fi 6E AX210, Bluetooth® 5"
+    },
+    "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-3.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+  },
+  {
+    "title": "HP Spectre x360",
+    "product_id": "HP56789",
+    "specs": {
+      "Processor": {
+        "Model": "11th Gen Intel® Core™ i7-1165G7",
+        "Turbo_Speed": "Up to 4.70 GHz"
+      },
+      "Operating_System": "Windows 10 Pro",
+      "Display": {
+        "Size": "13.3\"",
+        "Resolution": "UHD 3840x2160",
+        "Refresh_Rate": "60Hz",
+        "Panel_Type": "OLED"
+      },
+      "Memory": {
+        "Capacity": "16 GB",
+        "Type": "LPDDR4",
+        "Speed": "3200 MHz"
+      },
+      "Hard_Drive": {
+        "Capacity": "512 GB",
+        "Type": "M.2",
+        "Interface": "PCIe NVMe",
+        "SSD": true
+      },
+      "Color": "Nightfall Black",
+      "Keyboard": {
+        "Color": "Black",
+        "Layout": "US QWERTY",
+        "Backlit": true
+      },
+      "Ports": {
+        "USB_3.1_Gen_1_Type-C": 2,
+        "Thunderbolt_3": 1,
+        "Headphone_microphone_combo_jack": 1
+      },
+      "Dimensions_Weight": {
+        "Height": {
+          "Front": "17.9 mm (0.70 in.)",
+          "Rear": "17.9 mm (0.70 in.)"
+        },
+        "Width": "305.8 mm (12.04 in.)",
+        "Depth": "194.5 mm (7.65 in.)",
+        "Weight": {
+          "Minimum": "1.36 kg (3.00 lb)",
+          "Maximum": "1.36 kg (3.00 lb)"
+        }
+      },
+      "Wireless": "Intel® Wi-Fi 6E AX210, Bluetooth® 5"
+    },
+    "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-3.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+  },
+  {
+    "title": "",
+    "product_id": "DL985644",
+    "specs": {
+      "Processor": {
+        "Model": "11th Gen Intel® Core™ i7-1165G7",
+        "Turbo_Speed": "Up to 4.70 GHz"
+      },
+      "Operating_System": "Windows 10 Pro",
+      "Display": {
+        "Size": "13.3\"",
+        "Resolution": "UHD 3840x2160",
+        "Refresh_Rate": "60Hz",
+        "Panel_Type": "OLED"
+      },
+      "Memory": {
+        "Capacity": "16 GB",
+        "Type": "LPDDR4",
+        "Speed": "3200 MHz"
+      },
+      "Hard_Drive": {
+        "Capacity": "512 GB",
+        "Type": "M.2",
+        "Interface": "PCIe NVMe",
+        "SSD": true
+      },
+      "Color": "Nightfall Black",
+      "Keyboard": {
+        "Color": "Black",
+        "Layout": "US QWERTY",
+        "Backlit": true
+      },
+      "Ports": {
+        "USB_3.1_Gen_1_Type-C": 2,
+        "Thunderbolt_3": 1,
+        "Headphone_microphone_combo_jack": 1
+      },
+      "Dimensions_Weight": {
+        "Height": {
+          "Front": "17.9 mm (0.70 in.)",
+          "Rear": "17.9 mm (0.70 in.)"
+        },
+        "Width": "305.8 mm (12.04 in.)",
+        "Depth": "194.5 mm (7.65 in.)",
+        "Weight": {
+          "Minimum": "1.36 kg (3.00 lb)",
+          "Maximum": "1.36 kg (3.00 lb)"
+        }
+      },
+      "Wireless": "Intel® Wi-Fi 6E AX210, Bluetooth® 5"
+    },
+    "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-3.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+  }
+  
+]
+
+
  
   
 }
